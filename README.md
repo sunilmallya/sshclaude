@@ -73,7 +73,7 @@ pip install sshclaude
    * `sshclaude uninstall` – remove all Cloudflare resources and local files (requires your tunnel token)
 
 ```
-sshclaude init --github sunilmallya --domain vibecode.sshclaude.dev --token mypassphrase
+sshclaude init --github sunilmallya --domain <yourdomain>.sshclaude.dev --token mypassphrase
 ```
 
 When `sshclaude init` runs it will:
