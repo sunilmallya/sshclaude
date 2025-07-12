@@ -56,12 +56,6 @@ cd sshclaude
 pip install -e .
 ```
 
-#### From PyPI
-
-```bash
-pip install sshclaude
-```
-
 ### Setup and Usage
 
 1. Run `sshclaude init --github <your-login>` and follow the browser login to verify your GitHub account. You can pass extra options like `--domain <sub>` to choose a custom hostname, `--session 30m` to tweak the Cloudflare Access TTL or `--token <secret>` to supply your own unlock token.
